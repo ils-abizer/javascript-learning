@@ -77,3 +77,16 @@ function calculateGST( productPrice ) {
     return productPrice * 0.05;
     }
     console.log(calculateGST(15))
+
+// Immediately Invoked Function Expression
+// Regular Function.
+function Greet() {
+    console.log("Tony Stark");
+};
+// Execution of Regular Function.
+Greet();
+
+// IIFE creation and execution.
+(function() {
+    console.log("Ironman");
+})();
